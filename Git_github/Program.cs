@@ -11,6 +11,7 @@ namespace Git_github
             int opcao = int.Parse(Console.ReadLine());
             while (opcao != 0)
             {
+                // git ignore
                 int a, b;
                 Console.WriteLine("Informe o valor dos valores dos numeros a serem somados");
                 a = int.Parse(Console.ReadLine());
@@ -19,7 +20,7 @@ namespace Git_github
                 Console.WriteLine("A soma dos valores e igual a " + Soma(a,b));
                 Console.WriteLine("Se deseja repetir ou aperte 0 para sair");
                 opcao = int.Parse(Console.ReadLine());
-
+                
             }
             #endregion
 
