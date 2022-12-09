@@ -16,7 +16,7 @@ namespace Git_github
                 a = int.Parse(Console.ReadLine());
                 b = int.Parse(Console.ReadLine());
                 int resultado = Soma(a, b);
-                Console.WriteLine("A soma dos valores e igual a " + resultado);
+                Console.WriteLine("A soma dos valores e igual a " + Soma(a,b));
                 Console.WriteLine("Se deseja repetir ou aperte 0 para sair");
                 opcao = int.Parse(Console.ReadLine());
 
@@ -32,6 +32,7 @@ namespace Git_github
                 return a - b;
 
             }
+            
 
 
 
