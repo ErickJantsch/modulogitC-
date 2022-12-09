@@ -32,6 +32,11 @@ namespace Git_github
                 return a - b;
 
             }
+
+            static int Multiplicacao(int a, int b)
+            {
+                return a * b;
+            }
             
 
 
